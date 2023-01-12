@@ -1,4 +1,4 @@
-#Made By Varun kumar | Roll Number:2022563 | IIIT-DELHI
+#Made By Varun kumar | IIIT-DELHI
 
 import requests
 from random import randint
