@@ -16,7 +16,7 @@ print("""Difficulty
 1. Easy
 2. Medium
 3. Tough""")
-difficulty=int(input("Please Select the difficulty Level:"))
+difficulty=int(input("Please Select the difficulty Level(Number Corresponding to it.):"))
 if difficulty==1:
     difficulty="easy"
 elif difficulty==2:
