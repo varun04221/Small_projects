@@ -1,4 +1,4 @@
-#Made by VARUN KUMAR | Roll No:2022563 | IIIT-DELHI
+#Made by VARUN KUMAR | IIIT-DELHI
 
 import csv
 import requests
