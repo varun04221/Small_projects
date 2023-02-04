@@ -46,7 +46,9 @@ def RREF(list):
                 pivcol=None
         if type(pivcol)==int:
             for k in range(i+1,len(list)):
-                list[k][pivcol]=0
+                rfactor=list[k][pivcol]/list[i][pivcol]
+                for m in range(len(list[k])):
+                    list[k][m]=list[k][m]-rfactor*list[i][m]
     list=list[::-1]
 
 ans=[]#output of echelon form
